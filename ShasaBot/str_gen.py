@@ -9,5 +9,5 @@ i = c(":memory:", api_id=API_ID, api_hash=API_HASH)
 
 with i:
     ss = i.export_session_string()
-    print("\nHERE IS YOUR STRING SESSION, COPY IT, DON'T SHARE!!\n")
+    print("\nHERE IS YOUR STRING SESSION, COPY IT, DON'T SHARE, JOIN FOR QUERY @D3VIL_SUPPORT!!\n")
     print(f"\n{ss}\n")
