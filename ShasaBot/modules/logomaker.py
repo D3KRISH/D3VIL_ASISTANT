@@ -68,11 +68,11 @@ async def lego(event):
 
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
 
-    fname2 = "LogoBySavage.png"
+    fname2 = "LogoByd3vil.png"
 
     img.save(fname2, "png")
 
-    await tbot.send_file(event.chat_id, fname2, caption="Made By Savage")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By D3vil")
 
     if os.path.exists(fname2):
 
@@ -80,7 +80,7 @@ async def lego(event):
 
  except Exception as e:
 
-   await event.reply(f'Error Report @Savage_management_bot, {e}')
+   await event.reply(f'Error Report @D3VIL_ASSISTANT_BOT, {e}')
 
    
 
@@ -146,7 +146,7 @@ async def lego(event):
 
     img.save(fname2, "png")
 
-    await tbot.send_file(event.chat_id, fname2, caption="Made By ShasaBot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By D3vilBot")
 
     if os.path.exists(fname2):
 
@@ -154,7 +154,7 @@ async def lego(event):
 
  except Exception as e:
 
-   await event.reply(f'Error Report @Savage_userbot, {e}')
+   await event.reply(f'Error Report @D3VIL_BOT_SUPPORT, {e}')
 
 
 
