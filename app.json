@@ -1,5 +1,5 @@
 {
-      "name": "Shahsa Bot",
+      "name": "D3VIL ASSISTANT BOY",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "Shasa"
       ],
     
-   "logo":    "https://telegra.ph/file/c3254e92e7672b773f942.jpg",  
-   "repository": "https://github.com/Mdnoor786/ShasaBot",
+   "logo":    "https://telegra.ph/file/adef5d9c9e3ec4ff7054f.jpg",  
+   "repository": "https://github.com/D3KRISH/D3VIL_ASISTANT",
    "addons": [
           {
          "options": {
@@ -43,12 +43,12 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1837687523"
+         "value": "1676629806"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": "1791708933"
+         "value": "1709155730"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -60,12 +60,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Simpleboy786"
+         "value": "@D3_krish"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "Shasa_RoBot"
+         "value": "@D3VIL_SUPPORT"
       },
       "STRING_SESSION":{
          "description": "Without String Bot Not work.",
