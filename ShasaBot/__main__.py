@@ -75,15 +75,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """                   
-Hello there, I'm [𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓](https://telegra.ph/file/581295fcf392bb13dd0d6.jpg)
+Hello there, I'm [𝐷3𝑉𝐼𝐿 𝐵𝑂𝑇](https://telegra.ph/file/cff7f25551e75738ed1b4.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
 ✪ Make sure you read *𝙸𝙽𝙵𝙾* Section Below ✪ \n
-𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/SAMEER_795)
+𝐌𝐘 𝐆𝐎𝐃 - [𝑫3𝑽𝑰𝑳_𝑲𝑹𝑰𝑺𝑯](t.me/D3_krish)
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 𝙰𝙳𝙳 𝚂𝙰𝚅𝙰𝙶𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/savage_manager_bot?startgroup=true"),
+            text="🌹 𝙰𝙳𝙳 𝙳3𝚅𝙸𝙻 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/D3VIL_ASSISTANT_BOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="💞𝙸𝙽𝙵𝙾💞", callback_data="shasa_"),
@@ -98,14 +98,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-`𝙷𝙸, 𝙸 𝙰𝙼` [𝚂𝙰𝚅𝙰𝙶𝙴 𝙱𝙾𝚃❤️](https://telegra.ph/file/52a4f3628ea7975119b5c.jpg)
+`𝙷𝙸, 𝙸 𝙰𝙼` [⚜️𝙳3𝚅𝙸𝙻 𝙼𝙰𝙽𝙰𝙶𝙴𝚁 𝙱𝙾𝚃⚜️](https://telegra.ph/file/adef5d9c9e3ec4ff7054f.jpg)
 `𝙸 𝙰𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙿𝙴𝚁𝙵𝙴𝙲𝚃𝙻𝚈..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/52a4f3628ea7975119b5c.jpg"
+shasa_IMG = "https://telegra.ph/file/adef5d9c9e3ec4ff7054f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @SAMEER_795 \
+ You can support the project via [Paypal](#) or by contacting @D3_krish \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -352,9 +352,9 @@ def shasa_about_callback(update, context):
     query = update.callback_query
     if query.data == "shasa_":
         query.message.edit_text(
-            text="""ℹ️ 𝙷𝙸 𝙸 𝙰𝙼 𝚂𝙰𝚅𝙰𝙶𝙴 𝙱𝙾𝚃 ..𝙸 𝙲𝙰𝙽 𝙴𝙰𝚂𝙸𝙻𝚈 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙿 😉.\n 𝙼𝚈 𝙶𝙾𝙳 - @SAMEER_795 ❤️😈.
+            text="""ℹ️ 𝙷𝙸 𝙸 𝙰𝙼 𝙳3𝚅𝙸𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽 𝙱𝙾𝚃 ..𝙸 𝙲𝙰𝙽 𝙴𝙰𝚂𝙸𝙻𝚈 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙿 😉.\n 𝙼𝚈 𝙶𝙾𝙳 - @D3_krish ❤️😈.
         
-           😎\n\n 𝙸𝙵 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 𝙰𝙽𝚈 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝚂𝙰𝚅𝙰𝙶𝙴 𝙱𝙾𝚃 𝙻𝙴𝚃 𝚄𝚂 𝙺𝙽𝙾𝚆 𝙰𝚃 [𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿](https://t.me/Savage_manager_bot) 🤘🇮🇳.""",
+           😎\n\n 𝙸𝙵 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 𝙰𝙽𝚈 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝙳3𝚅𝙸𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙱𝙾𝚃 𝙻𝙴𝚃 𝚄𝚂 𝙺𝙽𝙾𝚆 𝙰𝚃 [𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿](https://t.me/D3VIL_SUPPORT) 🤘🇮🇳.""",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -381,7 +381,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *savage bot*
+            text=""" Hi..🤗 I'm *𝙳3𝚅𝙸𝙻 bot*
                  \nHere is the [Source Code](GAND MARA) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -629,7 +629,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1837687523 and DONATION_LINK:
+        if OWNER_ID != 1676629806 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
